@@ -3,6 +3,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { useTheme } from '../context/ThemeContext';
 
+const NAME_PATTERN = /^[A-Za-z ]+$/;
+
 const Register = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -31,6 +33,8 @@ const Register = () => {
       newErrors.name = 'Name must be at least 5 characters';
     } else if (formData.name.trim().length > 30) {
       newErrors.name = 'Name must not exceed 30 characters';
+    } else if (!NAME_PATTERN.test(formData.name)) {
+      newErrors.name = 'Name can only contain alphabets and spaces';
     }
 
     // Email validation
@@ -100,9 +104,13 @@ const Register = () => {
   };
 
   const handleChange = (e) => {
+    const { name } = e.target;
+    // Full Name accepts only alphabets and spaces; drop any other characters as typed/pasted
+    const value = name === 'name' ? e.target.value.replace(/[^A-Za-z ]/g, '') : e.target.value;
+
     setFormData(prev => ({
       ...prev,
-      [e.target.name]: e.target.value
+      [name]: value
     }));
     
     // Clear specific error when user starts typing
