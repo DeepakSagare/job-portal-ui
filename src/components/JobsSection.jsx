@@ -100,7 +100,7 @@ const JobsSection = () => {
           </div>
           <h2 className="text-4xl md:text-6xl font-black text-gray-900 dark:text-white mb-6">
             <span className="bg-gradient-to-r from-gray-900 via-primary-600 to-purple-600 dark:from-white dark:via-primary-400 dark:to-purple-400 bg-clip-text text-transparent">
-              Featured Jobs
+              Premium Featured Jobs
             </span>
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
