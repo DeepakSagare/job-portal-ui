@@ -41,7 +41,7 @@ const Hero = () => {
           <div className="text-center">
             <div className="mb-8">
               <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-primary-100 to-purple-100 dark:from-primary-900/30 dark:to-purple-900/30 text-primary-700 dark:text-primary-300 text-sm font-semibold mb-6 backdrop-blur-sm border border-primary-200/50 dark:border-primary-700/50">
-                🚀 Join 50,000+ professionals finding their dream jobs
+                🚀 Join 70,000+ professionals finding their dream jobs
               </div>
             </div>
 
