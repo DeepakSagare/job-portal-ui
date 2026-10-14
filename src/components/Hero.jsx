@@ -183,7 +183,7 @@ const Hero = () => {
               </div>
               <div className="group text-center p-6 rounded-2xl bg-gradient-to-br from-white/50 to-blue-50/50 dark:from-gray-800/50 dark:to-blue-900/20 backdrop-blur-sm border border-white/20 dark:border-gray-700/20 hover:scale-105 transition-all duration-300">
                 <div className="text-4xl md:text-5xl font-black bg-gradient-to-r from-blue-600 to-primary-600 bg-clip-text text-transparent mb-2">
-                  5K+
+                  10K+
                 </div>
                 <div className="text-gray-700 dark:text-gray-300 font-semibold text-lg">
                   Success Stories
