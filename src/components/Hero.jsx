@@ -41,7 +41,7 @@ const Hero = () => {
           <div className="text-center">
             <div className="mb-8">
               <div className="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-primary-100 to-purple-100 dark:from-primary-900/30 dark:to-purple-900/30 text-primary-700 dark:text-primary-300 text-sm font-semibold mb-6 backdrop-blur-sm border border-primary-200/50 dark:border-primary-700/50">
-                🚀 Join 80,000+ professionals finding their dream jobs
+                🚀 Join 10,000+ dream jobs
               </div>
             </div>
 
@@ -161,7 +161,7 @@ const Hero = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               <div className="group text-center p-6 rounded-2xl bg-gradient-to-br from-white/50 to-primary-50/50 dark:from-gray-800/50 dark:to-primary-900/20 backdrop-blur-sm border border-white/20 dark:border-gray-700/20 hover:scale-105 transition-all duration-300">
                 <div className="text-4xl md:text-5xl font-black bg-gradient-to-r from-primary-600 to-purple-600 bg-clip-text text-transparent mb-2">
-                  50K+
+                  100K+
                 </div>
                 <div className="text-gray-700 dark:text-gray-300 font-semibold text-lg">
                   Jobs Available
